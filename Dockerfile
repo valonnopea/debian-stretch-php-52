@@ -169,9 +169,9 @@ RUN \
 		--with-flatfile \
 		--with-gdbm \
 		--with-inifile \
-		--with-freetype-dir=/usr \
+		--with-freetype-dir="/usr" \
 		--enable-gd-native-ttf \
-		--with-jpeg \
+		--with-jpeg-dir="/usr" \
 		--with-png \
 		--with-gd \
 		--with-unixODBC=shared,/usr \
